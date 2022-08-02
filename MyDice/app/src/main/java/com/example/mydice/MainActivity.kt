@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             resultImage.contentDescription = diceResult
 
             resultImage.setImageResource(
-                when(diceResult.toInt()) {
+                when (diceResult.toInt()) {
                     1 -> R.drawable.dice1
                     2 -> R.drawable.dice2
                     3 -> R.drawable.dice3
@@ -33,11 +33,9 @@ class MainActivity : AppCompatActivity() {
                 }
             )
         }
-
-
     }
 
-    private fun diceRoll(): String{
+    private fun diceRoll(): String {
         val dice = Dice(6)
         return dice.roll().toString()
     }

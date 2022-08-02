@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Base Converter</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="from_base">Source Base</string>
+    <string name="to_base">Target Base</string>
+    <string name="conversion_result">Conversion Result</string>
+    <string name="convert">Convert</string>
+    <string name="conversion">Conversion:</string>
+
+    <string-array name="bases">
+        <item>Binary</item>
+        <item>Octal</item>
+        <item>Decimal</item>
+        <item>Hexadecimal</item>
+    </string-array>
+
+</resources>

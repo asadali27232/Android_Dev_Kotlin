@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#607d8c</color>
+    <color name="primaryColorVariant">#34515f</color>
+
+    <color name="secondaryColor">#607d8b</color>
+    <color name="secondaryColorVariant">#34515e</color>
+
+    <color name="primaryTextColor">#FDFDFD</color>
+    <color name="secondaryTextColor">#000000</color>
+
+
+    <color name="primaryColorNight">#607d8c</color>
+    <color name="primaryColorVariantNight">#34515f</color>
+
+    <color name="secondaryColorNight">#607d8b</color>
+    <color name="secondaryColorVariantNight">#34515e</color>
+
+    <color name="primaryTextColorNight">#FDFDFD</color>
+    <color name="secondaryTextColorNight">#000000</color>
+
+</resources>

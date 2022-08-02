@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
 
@@ -9,23 +8,56 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/costOfService"
+    <ImageView
+        android:id="@+id/icon_cost_of_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="@id/costOfServiceBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/costOfServiceBox"
+        app:srcCompat="@drawable/ic_store"
+        tools:ignore="NotSibling" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/costOfServiceBox"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:hint="@string/cost_of_service"
-        android:inputType="numberDecimal"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@id/icon_cost_of_service"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="Autofill" />
+        tools:ignore="Autofill">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/costOfService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/icon_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="@id/serviceQuestion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/serviceQuestion"
+        app:srcCompat="@drawable/ic_room"
+        tools:ignore="NotSibling" />
 
     <TextView
         android:id="@+id/serviceQuestion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/how_was_the_service"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/costOfService" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@id/icon_question"
+        app:layout_constraintTop_toBottomOf="@+id/costOfServiceBox" />
 
     <RadioGroup
         android:id="@+id/tipOption"
@@ -56,14 +88,26 @@
 
     </RadioGroup>
 
-    <Switch
+    <ImageView
+        android:id="@+id/icon_roundup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="@id/roundUpSwitch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/roundUpSwitch"
+        app:srcCompat="@drawable/ic_outline_upgrade_24"
+        tools:ignore="NotSibling" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
         android:id="@+id/roundUpSwitch"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:checked="true"
+        android:layout_marginStart="16dp"
         android:text="@string/round_up_tip"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@id/icon_roundup"
         app:layout_constraintTop_toBottomOf="@id/tipOption"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
@@ -80,9 +124,10 @@
         android:id="@+id/tip_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/calculateButton"
-        tools:text = "Tip Amount: £10"/>
+        tools:text="Tip Amount: £10" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

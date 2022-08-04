@@ -2,7 +2,11 @@ package com.example.unitconverter.converter
 
 import kotlin.math.PI
 
-class Angle(private val source: String, private val target: String, private val input: Double) {
+class Angle(
+    private val source: String,
+    private val target: String,
+    private val input: Double
+) {
     fun convert(): Double {
         return when (source) {
             "Degree" -> convertDegree()

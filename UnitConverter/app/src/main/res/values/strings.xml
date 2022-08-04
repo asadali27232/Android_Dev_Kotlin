@@ -1,3 +1,72 @@
 <resources>
     <string name="app_name">Unit Converter</string>
+    <string name="type">Conversion Type</string>
+    <string name="convert">Convert</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="invert">Invert</string>
+    <string name="textview">TextView</string>
+
+    <string-array name="conversionTypesArray">
+        <item>Angle</item>
+        <item>Length</item>
+        <item>Mass</item>
+        <item>Speed</item>
+        <item>Digital Storage</item>
+        <item>Temperature</item>
+        <item>Time</item>
+    </string-array>
+
+    <string-array name="angleArray">
+        <item>Degree</item>
+        <item>Radian</item>
+    </string-array>
+
+    <string-array name="digitalStorageArray">
+        <item>Bit</item>
+        <item>Byte</item>
+        <item>Kilobyte</item>
+        <item>Megabyte</item>
+        <item>Gigabyte</item>
+        <item>Terabyte</item>
+        <item>Petabyte</item>
+    </string-array>
+
+    <string-array name="lengthArray">
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Millimeter</item>
+    </string-array>
+
+    <string-array name="massArray">
+        <item>Tonne</item>
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Pound</item>
+        <item>Ounce</item>
+    </string-array>
+
+    <string-array name="speedArray">
+        <item>Km / hour</item>
+        <item>Miles / hour</item>
+        <item>Meter / second</item>
+    </string-array>
+
+    <string-array name="temperatureArray">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="timeArray">
+        <item>Second</item>
+        <item>Minute</item>
+        <item>Hour</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Calender Year</item>
+    </string-array>
+
 </resources>

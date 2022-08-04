@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Contacts Recycler View</string>
+    <string name="contact_icon">Contact Icon</string>
+    <string name="mobile">Mobile</string>
+    <string name="asad_ali">Asad Ali</string>
+    <string name="_03074315952">03074315952</string>
+    <string name="email">Email</string>
+    <string name="asadali27232_gmail_com">asadali27232@gmail.com</string>
+</resources>

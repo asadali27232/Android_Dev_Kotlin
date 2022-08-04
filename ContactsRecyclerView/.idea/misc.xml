@@ -3,9 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/asada/OneDrive/Android_Dev_Kotlin/UnitConverter/app/src/main/res/layout/activity_main.xml" value="0.21" />
-        <entry key="..\:/Users/asada/OneDrive/Android_Dev_Kotlin/UnitConverter/app/src/main/res/layout/drop_down.xml" value="0.1743659420289855" />
-        <entry key="..\:/Users/asada/OneDrive/Android_Dev_Kotlin/UnitConverter/app/src/main/res/layout/dropdown_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/asada/OneDrive/Android_Dev_Kotlin/ContactsRecyclerView/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1295" />
+        <entry key="..\:/Users/asada/OneDrive/Android_Dev_Kotlin/ContactsRecyclerView/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/asada/OneDrive/Android_Dev_Kotlin/ContactsRecyclerView/app/src/main/res/layout/contact_view.xml" value="0.33" />
       </map>
     </option>
   </component>

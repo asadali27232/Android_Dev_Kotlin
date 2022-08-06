@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<RecyclerView>(R.id.main_screen_RecyclerView).also {
-            it.adapter = AppCardAdapter(Data().prepare())
+            it.adapter = AppCardAdapter(Data().prepare(), this)
             it.layoutManager = LinearLayoutManager(this)
         }
     }

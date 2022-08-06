@@ -6,5 +6,6 @@ data class AppCard(
     val appDescription: String,
     val githubUrl: String,
     val downlaodUrl: String,
+    val appName: String,
 ) {
 }

@@ -18,6 +18,7 @@ class Data {
                         "group different views together i.e tow TextViews in thi case. ",
                 "https://github.com/asadali27232/Android_Dev_Kotlin/tree/main/HappyBirthday",
                 "",
+                "happy_birthday"
             ),
             AppCard(
                 "My Dice",
@@ -30,6 +31,7 @@ class Data {
                         " of a TextView and Image while the app is running.",
                 "https://github.com/asadali27232/Android_Dev_Kotlin/tree/main/MyDice",
                 "",
+                "my_dice"
             ),
             AppCard(
                 "Base Converter",
@@ -44,6 +46,7 @@ class Data {
                         "group different views together i.e tow TextViews in thi case. ",
                 "https://github.com/asadali27232/Android_Dev_Kotlin/tree/main/BaseConverter",
                 "",
+                "base_converter"
             ),
             AppCard(
                 "Tip Time",
@@ -56,6 +59,7 @@ class Data {
                         " of a TextView and Image while the app is running.",
                 "https://github.com/asadali27232/Android_Dev_Kotlin/tree/main/TipTime",
                 "",
+                "tip_time"
             ),
             AppCard(
                 "Affirmations",
@@ -68,6 +72,7 @@ class Data {
                         " of a TextView and Image while the app is running.",
                 "https://github.com/asadali27232/Android_Dev_Kotlin/tree/main/Affirmations",
                 "",
+                "affirmations"
             ),
             AppCard(
                 "Contacts",
@@ -80,18 +85,20 @@ class Data {
                         " of a TextView and Image while the app is running.",
                 "https://github.com/asadali27232/Android_Dev_Kotlin/tree/main/ContactsRecyclerView",
                 "",
+                "contacts"
             ),
             AppCard(
                 "Songs List",
-                R.drawable.songs_lis_icon,
+                R.drawable.songs_list_icon,
                 "Dice Roller Android app that has a Button to roll a dice and update the " +
                         "image on the screen. While developing this app I have learned about; " +
                         "how to add a Button to an Android app, how to add behavior for when a " +
                         "Button is tapped in the app. how to open and modify the Activity code " +
                         "of an app. how to display a Toast message and how to update the contents" +
                         " of a TextView and Image while the app is running.",
+                "https://github.com/asadali27232/Android_Dev_Kotlin/tree/main/SongsListRecyclerView",
                 "",
-                "",
+                "songs_list"
             ),
             AppCard(
                 "Unit Converter",
@@ -104,10 +111,11 @@ class Data {
                         " of a TextView and Image while the app is running.",
                 "https://github.com/asadali27232/Android_Dev_Kotlin/tree/main/UnitConverter",
                 "",
+                "unit_converter"
             ),
             AppCard(
                 "Words",
-                R.drawable.affirmations_icon,
+                R.drawable.words_icon,
                 "Dice Roller Android app that has a Button to roll a dice and update the " +
                         "image on the screen. While developing this app I have learned about; " +
                         "how to add a Button to an Android app, how to add behavior for when a " +
@@ -116,7 +124,8 @@ class Data {
                         " of a TextView and Image while the app is running.",
                 "https://github.com/asadali27232/Android_Dev_Kotlin/tree/main/Words",
                 "",
-            ),
+                "words"
+            )
         )
     }
 }

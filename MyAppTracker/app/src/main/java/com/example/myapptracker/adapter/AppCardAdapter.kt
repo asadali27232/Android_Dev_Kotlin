@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.myapptracker.ImageActivity
 import com.example.myapptracker.R
 import com.example.myapptracker.model.AppCard
 import java.net.URI
@@ -37,6 +38,12 @@ class AppCardAdapter(private val appCards: List<AppCard>, val context: Context) 
         holder.iconDownload.setOnClickListener {
             val downloadUrl: Uri = Uri.parse(appCards[position].downlaodUrl)
             val intent = Intent(Intent.ACTION_VIEW, downloadUrl)
+            context.startActivity(intent)
+        }
+
+        holder.iconImage.setOnClickListener {
+            val intent = Intent(context, ImageActivity::class.java)
+            intent.putExtra("APP_NAME", appCards[position].appName)
             context.startActivity(intent)
         }
     }

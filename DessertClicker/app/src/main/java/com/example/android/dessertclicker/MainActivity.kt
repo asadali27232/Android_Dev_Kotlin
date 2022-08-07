@@ -77,6 +77,12 @@ class MainActivity : AppCompatActivity() {
             onDessertClicked()
         }
 
+        if (savedInstanceState != null) {
+            revenue = savedInstanceState.getInt(KEY_REVENUE, 0)
+            dessertsSold = savedInstanceState.getInt(KEY_DESSERT_SOLD, 0)
+            showCurrentDessert()
+        }
+
         // Set the TextViews to the right values
         binding.revenue = revenue
         binding.amountSold = dessertsSold
@@ -85,8 +91,8 @@ class MainActivity : AppCompatActivity() {
         binding.dessertButton.setImageResource(currentDessert.imageId)
 
         if (savedInstanceState != null) {
-            savedInstanceState.getInt(KEY_REVENUE, 0).also { revenue = it }
-            savedInstanceState.getInt(KEY_DESSERT_SOLD, 0).also { dessertsSold = it }
+            revenue = savedInstanceState.getInt(KEY_REVENUE, 0)
+            dessertsSold = savedInstanceState.getInt(KEY_DESSERT_SOLD, 0)
             showCurrentDessert()
         }
     }

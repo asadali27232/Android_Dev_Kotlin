@@ -13,15 +13,15 @@ class ImageActivity : AppCompatActivity() {
 
         with(findViewById<ImageView>(R.id.app_image)) {
             when (appName) {
-                "happy_birthday" -> setImageResource(R.drawable.happy_birthday_icon)
-                "my_dice" -> setImageResource(R.drawable.my_dice_icon)
-                "base_converter" -> setImageResource(R.drawable.base_converter_icon)
-                "tip_time" -> setImageResource(R.drawable.tip_time_icon)
-                "affirmations" -> setImageResource(R.drawable.tip_time_icon)
-                "contacts" -> setImageResource(R.drawable.contacts_icon)
-                "songs_list" -> setImageResource(R.drawable.songs_list_icon)
-                "unit_converter" -> setImageResource(R.drawable.unit_converter_icon)
-                "words" -> setImageResource(R.drawable.words_icon)
+                "happy_birthday" -> setImageResource(R.drawable.happy_birthday)
+                "my_dice" -> setImageResource(R.drawable.my_dice)
+                "base_converter" -> setImageResource(R.drawable.base_converter)
+                "tip_time" -> setImageResource(R.drawable.tip_time)
+                "affirmations" -> setImageResource(R.drawable.affirmations)
+                "contacts" -> setImageResource(R.drawable.contacts)
+                "songs_list" -> setImageResource(R.drawable.songs_list)
+                "unit_converter" -> setImageResource(R.drawable.unit_converter)
+                "words" -> setImageResource(R.drawable.words)
             }
         }
 

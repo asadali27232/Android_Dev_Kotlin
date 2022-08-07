@@ -116,6 +116,19 @@ class Data {
                 "https://github.com/asadali27232/Android_Dev_Kotlin/tree/main/Words",
                 "https://onedrive.live.com/download?cid=D370FCB232CA085E&resid=D370FCB232CA085E%2115359&authkey=AOsSJ0axao1p6_Y",
                 "words"
+            ),
+            AppCard(
+                "Dessert Clicker",
+                R.drawable.dessert_clicker_icon,
+                "Dessert Clicker Android app just counts the number of desserts sold " +
+                        "and more you sold the dessert you starts selling more expensive desserts." +
+                        "The basic purpose of this app is to study about Activity Life Cycle and " +
+                        "how to save small amount of data in thr form of Bundle when your app configuration changes i.e " +
+                        "user rotates teh screen",
+
+                "https://github.com/asadali27232/Android_Dev_Kotlin/tree/main/DessertClicker",
+                "https://onedrive.live.com/download?cid=D370FCB232CA085E&resid=D370FCB232CA085E%2115359&authkey=AOsSJ0axao1p6_Y",
+                "dessert_clicker"
             )
         )
     }

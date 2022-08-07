@@ -22,6 +22,7 @@ class ImageActivity : AppCompatActivity() {
                 "songs_list" -> setImageResource(R.drawable.songs_list)
                 "unit_converter" -> setImageResource(R.drawable.unit_converter)
                 "words" -> setImageResource(R.drawable.words)
+                "dessert_clicker" -> setImageResource(R.drawable.dessert_clicker)
             }
         }
 

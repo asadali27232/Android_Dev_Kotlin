@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ImageActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#E0E0E0">
 
     <ImageView
         android:id="@+id/app_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="16dp"
         />
 
 </LinearLayout>

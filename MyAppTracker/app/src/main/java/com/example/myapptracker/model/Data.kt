@@ -111,7 +111,8 @@ class Data {
                         "word vocabulary. It is my first Multi Activity app using Intents. Used an " +
                         "explicit intent to navigate to a specific activity. Used an implicit " +
                         "intent to navigate to content in another app. Added menu options to add " +
-                        "buttons to the app bar.",
+                        "buttons to the app bar. Also developed this app using Jetpack " +
+                        "Navigation Component.",
 
                 "https://github.com/asadali27232/Android_Dev_Kotlin/tree/main/Words",
                 "https://onedrive.live.com/download?cid=D370FCB232CA085E&resid=D370FCB232CA085E%2115359&authkey=AOsSJ0axao1p6_Y",
@@ -124,11 +125,24 @@ class Data {
                         "and more you sold the dessert you starts selling more expensive desserts." +
                         "The basic purpose of this app is to study about Activity Life Cycle and " +
                         "how to save small amount of data in thr form of Bundle when your app configuration changes i.e " +
-                        "user rotates teh screen",
+                        "user rotates the screen.",
 
                 "https://github.com/asadali27232/Android_Dev_Kotlin/tree/main/DessertClicker",
-                "https://onedrive.live.com/download?cid=D370FCB232CA085E&resid=D370FCB232CA085E%2115359&authkey=AOsSJ0axao1p6_Y",
+                "",
                 "dessert_clicker"
+            ),
+            AppCard(
+                "Memories",
+                R.drawable.memories_icon,
+                "Memories Android app displays the memories pictures. In this app " +
+                        "I have used most power to set of libraries in android named Jetpack. " +
+                        "As clear from the name Jetpack libraries are design to make app " +
+                        "development more robust, maintain able and sustainable. This app " +
+                        "also present an excellent way wo View Binding.",
+
+                "https://github.com/asadali27232/Android_Dev_Kotlin/tree/main/Memories",
+                "",
+                "memories"
             )
         )
     }

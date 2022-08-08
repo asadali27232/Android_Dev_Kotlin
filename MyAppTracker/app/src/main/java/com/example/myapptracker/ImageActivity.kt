@@ -23,6 +23,7 @@ class ImageActivity : AppCompatActivity() {
                 "unit_converter" -> setImageResource(R.drawable.unit_converter)
                 "words" -> setImageResource(R.drawable.words)
                 "dessert_clicker" -> setImageResource(R.drawable.dessert_clicker)
+                "memories" -> setImageResource(R.drawable.memories)
             }
         }
 

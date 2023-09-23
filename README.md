@@ -39,6 +39,8 @@ Inside this repository, you'll discover a variety of Android app projects and re
 
 4. Utilize the provided resources to enhance your skills in Android app development with Kotlin.
 
+## Conclusion
+
 Whether you're a Kotlin enthusiast looking to expand your Android app development skills or a newcomer eager to dive into mobile app development, this repository offers a wealth of resources to help you succeed.
 
 Feel free to contribute your own Android projects, share your knowledge, or collaborate with fellow Android developers to make this repository an even richer learning resource.
